@@ -1,0 +1,113 @@
+{
+    "buildings" : [
+        {
+            "id"        : "1",
+            "title"     : "Корпус «Атлас»",
+            "flats"     : [
+                {
+                    "number"    : "1стА",
+                    "price"     : "4900000",
+                    "rooms"     : "2",
+                    "size"      : "35,24",
+                    "preview"   : "files/select-flat-01.png",
+                    "url"       : "detail.html"
+                },
+                {
+                    "number"    : "2стА",
+                    "price"     : "4900000",
+                    "rooms"     : "Студия",
+                    "size"      : "35,24",
+                    "preview"   : "files/select-flat-02.png",
+                    "url"       : "detail.html"
+                },
+                {
+                    "number"    : "1стА",
+                    "price"     : "4900000",
+                    "rooms"     : "2",
+                    "size"      : "35,24",
+                    "preview"   : "files/select-flat-01.png",
+                    "url"       : "detail.html"
+                },
+                {
+                    "number"    : "1стА",
+                    "price"     : "4900000",
+                    "rooms"     : "Студия",
+                    "size"      : "35,24",
+                    "preview"   : "files/select-flat-02.png",
+                    "url"       : "detail.html"
+                },
+                {
+                    "number"    : "3стА",
+                    "price"     : "9900000",
+                    "rooms"     : "3",
+                    "size"      : "45,24",
+                    "preview"   : "files/select-flat-02.png",
+                    "url"       : "detail.html"
+                },
+                {
+                    "number"    : "4стА",
+                    "price"     : "12900000",
+                    "rooms"     : "4",
+                    "size"      : "50,24",
+                    "preview"   : "files/select-flat-02.png",
+                    "url"       : "detail.html"
+                }
+            ]
+        },
+
+        {
+            "id"        : "2",
+            "title"     : "Корпус «2»",
+            "flats"     : [
+                {
+                    "number"    : "1ст2",
+                    "price"     : "4900000",
+                    "rooms"     : "2",
+                    "size"      : "35,24",
+                    "preview"   : "files/select-flat-01.png",
+                    "url"       : "detail.html"
+                },
+                {
+                    "number"    : "2стА",
+                    "price"     : "4900000",
+                    "rooms"     : "Студия",
+                    "size"      : "35,24",
+                    "preview"   : "files/select-flat-02.png",
+                    "url"       : "detail.html"
+                },
+                {
+                    "number"    : "1ст2",
+                    "price"     : "4900000",
+                    "rooms"     : "2",
+                    "size"      : "35,24",
+                    "preview"   : "files/select-flat-01.png",
+                    "url"       : "detail.html"
+                },
+                {
+                    "number"    : "1стА",
+                    "price"     : "4900000",
+                    "rooms"     : "Студия",
+                    "size"      : "35,24",
+                    "preview"   : "files/select-flat-02.png",
+                    "url"       : "detail.html"
+                },
+                {
+                    "number"    : "3стБ",
+                    "price"     : "9900000",
+                    "rooms"     : "3",
+                    "size"      : "45,24",
+                    "preview"   : "files/select-flat-02.png",
+                    "url"       : "detail.html"
+                },
+                {
+                    "number"    : "4стБ",
+                    "price"     : "12900000",
+                    "rooms"     : "4",
+                    "size"      : "50,24",
+                    "preview"   : "files/select-flat-02.png",
+                    "url"       : "detail.html"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Созвездие</title>
+
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="js/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="js/nouislider/nouislider.css">
+        <link rel="stylesheet" href="js/fancybox/jquery.fancybox.min.css">
+
+        <meta name="viewport" content="width=device-width">
+    </head>
+
+    <body>
+
+        <!-- wrapper -->
+        <div class="wrapper">
+
+            <!-- wrapper inner -->
+            <div class="wrapper-inner">
+
+                <header>
+                    <div class="container">
+                        <div class="header-left">
+                            <a href="#" class="header-menu-link"><svg><use xlink:href="images/sprite.svg#burger-link"></use></svg><span>Меню</span></a>
+                            <a href="#" class="header-select-link btn border">Выбрать квартиру</a>
+                            <a href="#" class="header-video-link"><svg><use xlink:href="images/sprite.svg#icon-video"></use></svg><span>Смотреть видео</span></a>
+                        </div>
+
+                        <div class="header-right">
+                            <a href="tel:+784123782323" class="header-phone"><svg><use xlink:href="images/sprite.svg#icon-header-phone"></use></svg><span>+7 (8412) 378-23-23</span></a>
+                            <a href="windows/callback.html" class="header-callback-link btn border window-link">Заказать звонок</a>
+                        </div>
+
+                        <div class="logo"><img src="images/logo.svg" alt=""></div>
+                    </div>
+                </header>
+
+                <div class="menu">
+                    <div class="container">
+                        <div class="menu-header">
+                            <a href="#" class="menu-close-link"><svg><use xlink:href="images/sprite.svg#burger-close"></use></svg><span>Меню</span></a>
+
+                            <div class="header-right">
+                                <a href="tel:+784123782323" class="header-phone"><svg><use xlink:href="images/sprite.svg#icon-header-phone"></use></svg><span>+7 (8412) 378-23-23</span></a>
+                                <a href="windows/callback.html" class="header-callback-link btn border window-link">Заказать звонок</a>
+                            </div>
+
+                            <div class="menu-logo"><img src="images/menu-logo.svg" alt=""></div>
+                        </div>
+                        <div class="menu-content">
+                            <div class="menu-content-inner">
+                                <div class="menu-main">
+                                    <ul>
+                                        <li><a href="#">О проекте</a></li>
+                                        <li><a href="#">Расположение</a></li>
+                                        <li><a href="#">Архитектура и дизайн</a></li>
+                                        <li><a href="#">Благоустройство</a></li>
+                                        <li><a href="#">Центр добрососедства</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-add">
+                                    <ul>
+                                        <li><a href="#">Условия покупки</a></li>
+                                        <li><a href="#">Ход строительства</a></li>
+                                        <li><a href="#">Новости комплекса</a></li>
+                                        <li><a href="#">Контакты</a></li>
+                                    </ul>
+                                    <div class="menu-add-ctrl">
+                                        <a href="#" class="menu-select-link btn">Выбрать квартиру</a>
+                                        <a href="windows/callback.html" class="menu-callback-link window-link"><svg><use xlink:href="images/sprite.svg#icon-header-phone"></use></svg></a>
+                                    </div>
+                                </div>
+                                <div class="menu-img"><img src="images/menu-img.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="menu-footer">
+                            <div class="menu-footer-tour-link"><a href="#">Записаться<br> на&nbsp;экскурсию</a></div>
+                            <div class="menu-footer-policy">
+                                <p>Не является публичной офертой</p>
+                                <p><a href="#">Политика конфиденциальности</a></p>
+                            </div>
+                            <div class="menu-footer-termodom"><img src="images/menu-footer-termodom.svg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- container -->
+                <div class="container">
+
+                    <!-- main welcome -->
+                    <div class="main-welcome">
+                        <div class="main-welcome-bottom"></div>
+                        <h1>Дома класса &laquo;Космос&raquo;</h1>
+                        <div class="main-welcome-text">Флагманский проект холдинга &laquo;Термодом&raquo; на&nbsp;берегу озера в&nbsp;г. Спутник</div>
+                        <a href="#" class="main-welcome-video-link"><img src="images/main-welcome-video-link.svg" alt=""></a>
+                    </div>
+                    <!-- main welcome END -->
+
+                    <!-- main filter -->
+                    <div class="main-filter">
+                        <form action="#" method="post">
+                            <div class="main-filter-title">Выбрать квартиру</div>
+                            <div class="main-filter-rooms">
+                                <label><input type="checkbox" name="rooms[]" value="study"><span class="text">Студия</span></label>
+                                <label><input type="checkbox" name="rooms[]" value="1" checked><span>1</span></label>
+                                <label><input type="checkbox" name="rooms[]" value="2"><span>2</span></label>
+                                <label><input type="checkbox" name="rooms[]" value="3"><span>3</span></label>
+                                <label><input type="checkbox" name="rooms[]" value="4"><span>4</span></label>
+                                <label><input type="checkbox" name="rooms[]" value="penthouse"><span class="text">Пентхаус</span></label>
+                            </div>
+                            <div class="main-filter-price">
+                                <div class="main-filter-slider">
+                                    <input type="hidden" name="priceFrom" value="3" class="main-filter-slider-from">
+                                    <input type="hidden" name="priceTo" value="15" class="main-filter-slider-to">
+                                    <div class="main-filter-slider-text-from"><em>от</em><span>3</span><strong>&nbsp;млн Р</strong></div>
+                                    <div class="main-filter-slider-text-to"><em>до</em><span>15</span><strong>&nbsp;млн Р</strong></div>
+                                    <div class="main-filter-slider-range">
+                                        <div class="main-filter-slider-range-inner"></div>
+                                    </div>
+                                    <div class="main-filter-slider-params">
+                                        <div class="main-filter-slider-min">3</div>
+                                        <div class="main-filter-slider-max">15</div>
+                                        <div class="main-filter-slider-step">1</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-filter-submit"><button type="submit" class="btn">Показать квартиры</button></div>
+                            <div class="main-filter-catalogue"><a href="windows/catalogue.html" class="btn light window-link">Получить каталог</a></div>
+                        </form>
+                    </div>
+                    <!-- main filter END -->
+
+                    <div class="main-welcome-btns">
+                        <div class="main-welcome-btn"><a href="#" class="btn">Показать квартиры</a></div>
+                        <div class="main-welcome-btn"><a href="#" class="btn border">Получить каталог</a></div>
+                    </div>
+
+                    <!-- main family -->
+                    <div class="main-family">
+                        <div class="main-title"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg>первый семейный у воды</div>
+                        <div class="main-family-text">Каждый день в&nbsp;&laquo;СОЗВЕЗДИИ&raquo;&nbsp;&mdash; эмоции, которые хочется переживать еще и&nbsp;еще. День начнется с&nbsp;захватывающего панорамного вида на&nbsp;город, природу и&nbsp;набережную. Близость к&nbsp;бизнес-центрам позволит эффективно вести дела</div>
+
+                        <div class="main-family-slider">
+                            <div class="main-family-slider-menu">
+                                <a href="#">Форматы квартир</a>
+                                <a href="#">Архитектура</a>
+                                <a href="#">Благоустройство</a>
+                                <a href="#">Общественные зоны</a>
+                            </div>
+                            <div class="main-family-slider-container">
+                                <div class="main-family-slider-content">
+                                    <div class="main-family-slider-list swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="main-family-slider-item" data-title="Поражает своими видами">
+                                                    <a href="files/main-family-slider-1-1.jpg" data-fancybox="gallery-1" class="main-family-slider-item-photo" style="background-image:url(files/main-family-slider-1-1.jpg)"></a>
+                                                    <a href="files/main-family-slider-1-2.jpg" data-fancybox="gallery-1" class="main-family-slider-item-photo" style="background-image:url(files/main-family-slider-1-2.jpg)"></a>
+                                                    <a href="files/main-family-slider-1-3.jpg" data-fancybox="gallery-1" class="main-family-slider-item-photo" style="background-image:url(files/main-family-slider-1-3.jpg)"></a>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="main-family-slider-item" data-title="Поражает своими видами">
+                                                    <a href="files/main-family-slider-1-4.jpg" data-fancybox="gallery-1" class="main-family-slider-item-photo" style="background-image:url(files/main-family-slider-1-4.jpg)"></a>
+                                                    <a href="files/main-family-slider-1-5.jpg" data-fancybox="gallery-1" class="main-family-slider-item-photo" style="background-image:url(files/main-family-slider-1-5.jpg)"></a>
+                                                    <a href="files/main-family-slider-1-6.jpg" data-fancybox="gallery-1" class="main-family-slider-item-photo" style="background-image:url(files/main-family-slider-1-6.jpg)"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-family-slider-ctrl">
+                                            <div class="main-family-slider-left">
+                                                <div class="main-family-slider-fraction"><span>1</span> / <strong></strong></div>
+                                                <div class="main-family-slider-title"></div>
+                                            </div>
+                                            <div class="main-family-slider-right">
+                                                <div class="swiper-button-prev"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                                                <div class="swiper-button-next"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="main-family-slider-content">
+                                    <div class="main-family-slider-list swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="main-family-slider-item" data-title="Эстетика витражного остекления">
+                                                    <a href="files/main-family-slider-2-1.jpg" data-fancybox="gallery-2" class="main-family-slider-item-photo" style="background-image:url(files/main-family-slider-2-1.jpg)"></a>
+                                                    <a href="files/main-family-slider-2-2.jpg" data-fancybox="gallery-2" class="main-family-slider-item-photo" class="main-family-slider-item-photo" style="background-image:url(files/main-family-slider-2-2.jpg)"></a>
+                                                    <a href="files/main-family-slider-2-3.jpg" data-fancybox="gallery-2" class="main-family-slider-item-photo" class="main-family-slider-item-photo" style="background-image:url(files/main-family-slider-2-3.jpg)"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-family-slider-ctrl">
+                                            <div class="main-family-slider-left">
+                                                <div class="main-family-slider-fraction"><span>1</span> / <strong></strong></div>
+                                                <div class="main-family-slider-title"></div>
+                                            </div>
+                                            <div class="main-family-slider-right">
+                                                <div class="swiper-button-prev"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                                                <div class="swiper-button-next"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="main-family-slider-content">
+                                    <div class="main-family-slider-list swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="main-family-slider-item" data-title="Вид со стороны двора">
+                                                    <a href="files/main-family-slider-3-1.jpg" data-fancybox="gallery-3" class="main-family-slider-item-photo" class="main-family-slider-item-photo" style="background-image:url(files/main-family-slider-3-1.jpg)"></a>
+                                                    <a href="files/main-family-slider-3-2.jpg" data-fancybox="gallery-3" class="main-family-slider-item-photo" style="background-image:url(files/main-family-slider-3-2.jpg)"></a>
+                                                    <a href="files/main-family-slider-3-3.jpg" data-fancybox="gallery-3" class="main-family-slider-item-photo" style="background-image:url(files/main-family-slider-3-3.jpg)"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-family-slider-ctrl">
+                                            <div class="main-family-slider-left">
+                                                <div class="main-family-slider-fraction"><span>1</span> / <strong></strong></div>
+                                                <div class="main-family-slider-title"></div>
+                                            </div>
+                                            <div class="main-family-slider-right">
+                                                <div class="swiper-button-prev"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                                                <div class="swiper-button-next"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="main-family-slider-content">
+                                    <div class="main-family-slider-list swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="main-family-slider-item" data-title="Комфорт в каждой детали">
+                                                    <a href="files/main-family-slider-4-1.jpg" data-fancybox="gallery-4" class="main-family-slider-item-photo" style="background-image:url(files/main-family-slider-4-1.jpg)"></a>
+                                                    <a href="files/main-family-slider-4-2.jpg" data-fancybox="gallery-4" class="main-family-slider-item-photo" style="background-image:url(files/main-family-slider-4-2.jpg)"></a>
+                                                    <a href="files/main-family-slider-4-3.jpg" data-fancybox="gallery-4" class="main-family-slider-item-photo" style="background-image:url(files/main-family-slider-4-3.jpg)"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-family-slider-ctrl">
+                                            <div class="main-family-slider-left">
+                                                <div class="main-family-slider-fraction"><span>1</span> / <strong></strong></div>
+                                                <div class="main-family-slider-title"></div>
+                                            </div>
+                                            <div class="main-family-slider-right">
+                                                <div class="swiper-button-prev"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                                                <div class="swiper-button-next"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main family END -->
+
+                    <!-- main project -->
+                    <div class="main-project">
+                        <div class="main-title"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg>о проекте</div>
+                        <h2>&laquo;СОЗВЕЗДИЕ&raquo;&nbsp;&mdash; флагманский проект холдинга &laquo;Термодом&raquo; на&nbsp;берегу озера</h2>
+                        <div class="main-project-container">
+                            <div class="main-project-sputnik">
+                                <a href="#" class="main-project-sputnik-link">
+                                    <div class="main-project-sputnik-link-photo"><img src="images/main-project-sputnik.jpg" alt=""></div>
+                                    <div class="main-project-sputnik-link-icon"><svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg></div>
+                                </a>
+                                <div class="main-project-sputnik-link-title">Спутник&nbsp;&mdash; самый масштабный строительный проект в&nbsp;Пензенской области.</div>
+                            </div>
+                            <div class="main-project-text">
+                                <p>Дизайн каждого элемента в&nbsp;архитектуре ЖК&nbsp;&laquo;Созвездие&raquo; выступает вдохновителем для достижения новых вершин. Соприкоснувшись лично с&nbsp;его преимуществами, каждый житель чувствует себя на&nbsp;новом уровне комфорта и&nbsp;благоустройства.</p>
+                                <p>6&nbsp;уникальных домов выделяются своей сдержанностью и&nbsp;лаконичностью среди разноцветных фасадов Города Спутник.</p>
+                            </div>
+                        </div>
+                        <div class="main-project-bottom">
+                            <div class="main-project-bg">
+                                <img src="images/main-project-bg.png" alt="">
+                                <img src="images/main-project-bg-mobile.jpg" alt="">
+                                <div class="main-project-star main-project-star-1"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg></div>
+                                <div class="main-project-star main-project-star-2"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg></div>
+                                <div class="main-project-star main-project-star-3"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg></div>
+                                <div class="main-project-star main-project-star-4"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg></div>
+                                <div class="main-project-star main-project-star-5"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg></div>
+                                <div class="main-project-star main-project-star-6"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg></div>
+                            </div>
+                            <div class="main-project-digit"><svg><use xlink:href="images/sprite.svg#text-6"></use></svg></div>
+                            <div class="main-project-home"><img src="images/main-project-home.png" alt=""></div>
+                        </div>
+                    </div>
+                    <!-- main project END -->
+
+                    <!-- main architecture -->
+                    <div class="main-architecture">
+                        <div class="main-architecture-title-mobile"><img src="images/main-architecture-title-mobile.svg" alt=""></div>
+                        <div class="main-architecture-top">
+                            <div class="main-architecture-top-container">
+                                <div class="main-architecture-top-bg"><img src="images/main-architecture-bg.jpg" alt=""></div>
+                                <div class="main-architecture-top-home"><img src="images/main-architecture-home.png" alt=""></div>
+                                <div class="main-architecture-title"><img src="images/main-architecture-title.svg" alt=""></div>
+                                <div class="main-architecture-container">
+                                    <div class="main-title"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg>именная архитектура</div>
+                                    <h2>Обращает на&nbsp;себя внимание</h2>
+                                    <div class="main-architecture-text">Внешний вид комплекса представляет из&nbsp;себя комбинацию стильных акцентов с&nbsp;космическими текстурами. Эстетика архитектуры выражена стильными решениями, подсветкой, малыми архитектурными формами. Стеклянные фасады, увеличенные окна, полностью стеклянные стены на&nbsp;верхних этажах. Каждый дом будет удачно выделяться на&nbsp;общем фоне других строений района.</div>
+                                    <div class="main-architecture-prefs">
+                                        <div class="main-architecture-prefs-bg-mobile"><img src="images/main-architecture-mobile.jpg" alt=""></div>
+                                        <div class="main-architecture-prefs-list">
+                                            <div class="main-architecture-pref">
+                                                <div class="main-architecture-pref-value">17-24</div>
+                                                <div class="main-architecture-pref-title">этажа</div>
+                                            </div>
+                                            <div class="main-architecture-pref">
+                                                <div class="main-architecture-pref-value">2-4</div>
+                                                <div class="main-architecture-pref-title">лифта<br> в подъезде</div>
+                                            </div>
+                                            <div class="main-architecture-pref">
+                                                <div class="main-architecture-pref-value">50+</div>
+                                                <div class="main-architecture-pref-title">планировок<br> квартир</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-architecture-bottom">
+                            <div class="main-architecture-view">
+                                <div class="main-architecture-view-title">Квартиры без границ</div>
+                                <div class="main-architecture-view-anonce">Вид из&nbsp;окон СОЗВЕЗДИЯ вдохновляет! Забудьте о&nbsp;тесных пространствах. Время воплощать самые смелые и&nbsp;современные дизайнерские решения в&nbsp;интерьере своей квартиры</div>
+                                <div class="main-architecture-view-slider">
+                                    <div class="main-architecture-view-slider-left">
+                                        <div class="main-architecture-view-slider-list">
+                                            <div class="swiper">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide"><div class="main-architecture-view-slider-item" style="background-image:url(files/main-without-border-1.jpg)" data-title="стеклянные стены и&nbsp;увеличенные окна"></div></div>
+                                                    <div class="swiper-slide"><div class="main-architecture-view-slider-item" style="background-image:url(files/main-without-border-2.jpg)" data-title="великлепные виды"></div></div>
+                                                    <div class="swiper-slide"><div class="main-architecture-view-slider-item" style="background-image:url(files/main-without-border-3.jpg)" data-title="витражное остекление"></div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-architecture-view-slider-title">Квартиры без границ</div>
+                                    </div>
+                                    <div class="main-architecture-view-slider-right">
+                                        <div class="main-architecture-view-slider-titles"></div>
+                                        <div class="main-architecture-view-slider-ctrl">
+                                            <div class="main-architecture-view-slider-fraction"><span>1</span>&nbsp;/&nbsp;<strong></strong></div>
+                                            <div class="main-architecture-view-slider-arrows">
+                                                <div class="swiper-button-prev"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                                                <div class="swiper-button-next"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="main-architecture-halls">
+                                <div class="main-architecture-halls-title">Космические холлы</div>
+                                <div class="main-architecture-halls-anonce">Звездное небо в&nbsp;холлах СОЗВЕЗДИЯ впечатляет! Оставьте все сложности рабочего дня за&nbsp;порогом и&nbsp;ощутите безграничную глубину вселенной. Мягкая зона ожидания, лапомойки, комнаты для хранения детского транспорта. И&nbsp;никаких ступенек при входе в&nbsp;дом.</div>
+                                <div class="main-architecture-halls-slider">
+                                    <div class="main-architecture-halls-slider-left">
+                                        <div class="main-architecture-halls-slider-prev">
+                                        </div>
+                                        <div class="main-architecture-halls-slider-ctrl">
+                                            <div class="main-architecture-halls-slider-fraction"><span>1</span>&nbsp;/&nbsp;<strong></strong></div>
+                                            <div class="main-architecture-halls-slider-arrows">
+                                                <div class="swiper-button-prev"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                                                <div class="swiper-button-next"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-architecture-halls-slider-right">
+                                        <div class="main-architecture-halls-slider-list">
+                                            <div class="swiper">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide"><div class="main-architecture-halls-slider-item" style="background-image:url(files/main-halls-01.jpg)"></div></div>
+                                                    <div class="swiper-slide"><div class="main-architecture-halls-slider-item" style="background-image:url(files/main-halls-02.jpg)"></div></div>
+                                                    <div class="swiper-slide"><div class="main-architecture-halls-slider-item" style="background-image:url(files/main-halls-03.jpg)"></div></div>
+                                                    <div class="swiper-slide"><div class="main-architecture-halls-slider-item" style="background-image:url(files/main-halls-04.jpg)"></div></div>
+                                                    <div class="swiper-slide"><div class="main-architecture-halls-slider-item" style="background-image:url(files/main-halls-05.jpg)"></div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-architecture-halls-slider-title">Космические холлы</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main architecture END -->
+
+                    <!-- main comfort -->
+                    <div class="main-comfort">
+                        <div class="main-comfort-header">
+                            <div class="main-comfort-header-img"><img src="images/main-comfort-welcome.jpg" alt=""></div>
+                            <div class="main-comfort-header-content">
+                                <div class="main-title"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg>благоустройство и&nbsp;особенности</div>
+                                <h2>Координаты комфорта и&nbsp;удобства</h2>
+                            </div>
+                        </div>
+                        <div class="main-comfort-container">
+                            <div class="main-comfort-text">
+                                <div class="main-comfort-text-inner">
+                                    <p>В&nbsp;ЖК&nbsp;&laquo;Созвездие&raquo; все соответствует идеалам стиля и&nbsp;комфорта.</p>
+                                    <p>Современные материалы и&nbsp;технологии гарантируют жизнь высокого класса.</p>
+                                </div>
+                            </div>
+                            <div class="main-comfort-list">
+                                <div class="main-comfort-item">
+                                    <div class="main-comfort-item-photo"><img src="files/main-comfort-01.jpg" alt=""></div>
+                                    <div class="main-comfort-item-content">
+                                        <h3>Функциональные помещения<svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg><svg><use xlink:href="images/sprite.svg#icon-minus"></use></svg></h3>
+                                        <div class="main-comfort-item-text">В&nbsp;холлах располагаются колясочные комнаты, в&nbsp;которых можно хранить детские виды транспорта, экономя квадратные метры в&nbsp;квартире. Собаководы полюбят мойки для лап, чтобы питомцы возвращались домой с&nbsp;чистыми лапами.</div>
+                                    </div>
+                                </div>
+                                <div class="main-comfort-item">
+                                    <div class="main-comfort-item-photo"><img src="files/main-comfort-02.jpg" alt=""></div>
+                                    <div class="main-comfort-item-content">
+                                        <h3>Поквартирное отопление<svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg><svg><use xlink:href="images/sprite.svg#icon-minus"></use></svg></h3>
+                                        <div class="main-comfort-item-text">В&nbsp;комплексе установлено автономное отопление. Благодаря этому вы&nbsp;сможете самостоятельно контролировать температуру в&nbsp;отопительной системе и&nbsp;чувствовать себя комфортно.</div>
+                                    </div>
+                                </div>
+                                <div class="main-comfort-item">
+                                    <div class="main-comfort-item-photo"><img src="files/main-comfort-03.jpg" alt=""></div>
+                                    <div class="main-comfort-item-content">
+                                        <h3>Быстрые лифты<svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg><svg><use xlink:href="images/sprite.svg#icon-minus"></use></svg></h3>
+                                        <div class="main-comfort-item-text">Стиль жизни в&nbsp;&laquo;Созвездии&raquo; позволит сохранить время для самого важного. В&nbsp;подъездах будут установлены быстрые и&nbsp;практически бесшумные лифты.<br> 17-этажные дома оснащены двумя лифтами,<br> 25-этажные&nbsp;&mdash; четырьмя.</div>
+                                    </div>
+                                </div>
+                                <div class="main-comfort-item">
+                                    <div class="main-comfort-item-photo"><img src="files/main-comfort-04.jpg" alt=""></div>
+                                    <div class="main-comfort-item-content">
+                                        <h3>Функциональные помещения<svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg><svg><use xlink:href="images/sprite.svg#icon-minus"></use></svg></h3>
+                                        <div class="main-comfort-item-text">Правильное сочетание функциональности и&nbsp;безопасности с&nbsp;дополнением в&nbsp;виде уникального дизайна, создают неповторимый образ детской площадки. Различные игровые зоны со&nbsp;своими интерактивными объектами будут интересны детям разных возрастов.</div>
+                                    </div>
+                                </div>
+                                <div class="main-comfort-item">
+                                    <div class="main-comfort-item-photo"><img src="files/main-comfort-05.jpg" alt=""></div>
+                                    <div class="main-comfort-item-content">
+                                        <h3>Спортивные площадки<svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg><svg><use xlink:href="images/sprite.svg#icon-minus"></use></svg></h3>
+                                        <div class="main-comfort-item-text">Современные площадки для игровых видов спорта, комплексы для функциональных тренировок и&nbsp;фитнеса. Есть отличная возможность достигнуть уровня спортивной подготовки &laquo;как космонавт&raquo;</div>
+                                    </div>
+                                </div>
+                                <div class="main-comfort-item">
+                                    <div class="main-comfort-item-photo"><img src="files/main-comfort-06.jpg" alt=""></div>
+                                    <div class="main-comfort-item-content">
+                                        <h3>Зоны отдыха<svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg><svg><use xlink:href="images/sprite.svg#icon-minus"></use></svg></h3>
+                                        <div class="main-comfort-item-text">В&nbsp;динамичном ритме жизни прогрессивного человека не&nbsp;так уж&nbsp;легко найти время на&nbsp;отдых и&nbsp;побыть наедине с&nbsp;собой. ЖК&nbsp;&laquo;Созвездие&raquo; не&nbsp;оставил без внимания и&nbsp;этот момент. Территория внутреннего двора прекрасно подойдет, чтобы отдохнуть и&nbsp;провести свободные минуты за&nbsp;чтением книги. Для комфорта в&nbsp;зонах для отдыха находятся:</div>
+                                    </div>
+                                </div>
+                                <div class="main-comfort-item">
+                                    <div class="main-comfort-item-photo"><img src="files/main-comfort-07.jpg" alt=""></div>
+                                    <div class="main-comfort-item-content">
+                                        <h3>Система &laquo;Умный дом&raquo;<svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg><svg><use xlink:href="images/sprite.svg#icon-minus"></use></svg></h3>
+                                        <div class="main-comfort-item-text">Современная автоматизированная экосистема, которая обеспечивает безопасность, ресурсосбережение и&nbsp;комфорт в&nbsp;здании, а&nbsp;значит, повышает качество жизни.</div>
+                                        <div class="main-comfort-item-link"><a href="#" class="btn light">Подробнее</a></div>
+                                    </div>
+                                </div>
+                                <div class="main-comfort-item">
+                                    <div class="main-comfort-item-photo"><img src="files/main-comfort-08.jpg" alt=""></div>
+                                    <div class="main-comfort-item-content">
+                                        <h3>Система &laquo;Умная квартира&raquo;<svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg><svg><use xlink:href="images/sprite.svg#icon-minus"></use></svg></h3>
+                                        <div class="main-comfort-item-text">Система домашних устройств, способных выполнять действия и&nbsp;решать определенные повседневные задачи без участия человека.</div>
+                                        <div class="main-comfort-item-link"><a href="#" class="btn light">Подробнее</a></div>
+                                    </div>
+                                </div>
+                                <div class="main-comfort-item">
+                                    <div class="main-comfort-item-photo"><img src="files/main-comfort-09.jpg" alt=""></div>
+                                    <div class="main-comfort-item-content">
+                                        <h3>Видеонаблюдение и&nbsp;пункт охраны<svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg><svg><use xlink:href="images/sprite.svg#icon-minus"></use></svg></h3>
+                                        <div class="main-comfort-item-text">Камеры безопасности установили по&nbsp;периметру жилого комплекса. Представители собственной службы охраны имеют постоянный доступ к&nbsp;мониторам видеонаблюдения в&nbsp;специальном пункте входной группы.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main comfort END -->
+
+                    <!-- main neighbors -->
+                    <div class="main-neighbors">
+                        <div class="main-neighbors-header">
+                            <div class="main-neighbors-header-img"><img src="images/main-neighbors-welcome.jpg" alt=""></div>
+                            <div class="main-neighbors-header-content">
+                                <div class="main-title"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg>центр добрососедства и&nbsp;единая зона</div>
+                                <h2>Собираем звёзд в&nbsp;одном месте</h2>
+                            </div>
+                        </div>
+
+                        <div class="main-neighbors-center">
+                            <div class="main-neighbors-center-anonce">Настоящей стартовой площадкой для знакомств и&nbsp;приятной соседской дружбы станет пространство второго этажа. Все интересы и&nbsp;увлечения жителей смогут перерасти в&nbsp;удачные коллаборации в&nbsp;центре добрососедства.</div>
+                            <div class="main-neighbors-center-slider">
+                                <div class="main-neighbors-center-slider-left">
+                                    <div class="main-neighbors-center-slider-list">
+                                        <div class="swiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"><div class="main-neighbors-center-slider-item" style="background-image:url(files/main-neighbors-center-01.jpg)" data-title="Лаунж зона"></div></div>
+                                                <div class="swiper-slide"><div class="main-neighbors-center-slider-item" style="background-image:url(files/main-neighbors-center-02.jpg)" data-title="Пространство для лекций и&nbsp;мастер-классов"></div></div>
+                                                <div class="swiper-slide"><div class="main-neighbors-center-slider-item" style="background-image:url(files/main-neighbors-center-03.jpg)" data-title="Зона фитнеса и&nbsp;йоги"></div></div>
+                                                <div class="swiper-slide"><div class="main-neighbors-center-slider-item" style="background-image:url(files/main-neighbors-center-06.jpg)" data-title="Постамат"></div></div>
+                                                <div class="swiper-slide"><div class="main-neighbors-center-slider-item" style="background-image:url(files/main-neighbors-center-07.jpg)" data-title="Колясочная"></div></div>
+                                                <div class="swiper-slide"><div class="main-neighbors-center-slider-item" style="background-image:url(files/main-neighbors-center-08.jpg)" data-title="Лапомойка"></div></div>
+                                                <div class="swiper-slide"><div class="main-neighbors-center-slider-item" style="background-image:url(files/main-neighbors-center-09.jpg)" data-title="Офис управляющей компании"></div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-neighbors-center-slider-title">В&nbsp;центре добрососедства можно устраивать различные тренинги, лекции и&nbsp;мастер классы, а&nbsp;для детей организовать клубы раннего развития.</div>
+                                </div>
+                                <div class="main-neighbors-center-slider-right">
+                                    <div class="main-neighbors-center-slider-titles"></div>
+                                    <div class="main-neighbors-center-slider-ctrl">
+                                        <div class="main-neighbors-center-slider-fraction"><span>1</span>&nbsp;/&nbsp;<strong></strong></div>
+                                        <div class="main-neighbors-center-slider-arrows">
+                                            <div class="swiper-button-prev"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                                            <div class="swiper-button-next"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-neighbors-what">
+                            <div class="main-neighbors-what-title">Что можно делать в&nbsp;центре добрососедства?</div>
+                            <div class="main-neighbors-what-list">
+                                <div class="swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="main-neighbors-what-item">
+                                                <div class="main-neighbors-what-item-photo" style="background-image:url(files/main-neighbors-what-01.jpg"></div>
+                                                <div class="main-neighbors-what-item-text">Устраивать соседские встречи и&nbsp;различные мероприятия</div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="main-neighbors-what-item">
+                                                <div class="main-neighbors-what-item-photo" style="background-image:url(files/main-neighbors-what-02.jpg"></div>
+                                                <div class="main-neighbors-what-item-text">Заниматься спортом, работать удаленно и&nbsp;отдыхать</div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="main-neighbors-what-item">
+                                                <div class="main-neighbors-what-item-photo" style="background-image:url(files/main-neighbors-what-03.jpg"></div>
+                                                <div class="main-neighbors-what-item-text">Проводить мастер-классы и&nbsp;слушать лекции</div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="main-neighbors-what-item">
+                                                <div class="main-neighbors-what-item-photo" style="background-image:url(files/main-neighbors-what-04.jpg"></div>
+                                                <div class="main-neighbors-what-item-text">Организовывать развивающие занятия с&nbsp;детьми</div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="main-neighbors-what-item">
+                                                <div class="main-neighbors-what-item-photo" style="background-image:url(files/main-neighbors-what-05.jpg"></div>
+                                                <div class="main-neighbors-what-item-text">Смотреть фильмы</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-neighbors-bottom">
+                            <div class="main-neighbors-bottom-anonce">Добрососедство&nbsp;&mdash; это значит жить с&nbsp;уважением к&nbsp;здоровью и&nbsp;покою соседей. Поэтому мы&nbsp;установили правила добрососедства. Во&nbsp;дворе, в&nbsp;доме, в&nbsp;соседском центре и&nbsp;паркинге</div>
+                            <div class="main-neighbors-bottom-link"><a href="#" class="btn light">Правила добрососедства</a></div>
+                        </div>
+                    </div>
+                    <!-- main neighbors END -->
+
+                    <!-- main space -->
+                    <div class="main-space">
+                        <div class="main-space-header">
+                            <div class="main-space-header-img"><img src="images/main-space-welcome.jpg" alt=""></div>
+                            <div class="main-space-header-content">
+                                <div class="main-title"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg>расположение и&nbsp;окружение</div>
+                                <h2>Вдохновляйтесь окружением!</h2>
+                            </div>
+                        </div>
+                        <div class="main-space-anonce">&laquo;Созвездие&raquo; создано, чтобы каждый житель чувствовал себя в&nbsp;центре городской индустрии, но&nbsp;в&nbsp;то&nbsp;же время вдали от&nbsp;шума и&nbsp;суеты в&nbsp;гармонии с&nbsp;природой.</div>
+                        <div class="main-space-container">
+                            <div class="main-space-left">
+                                <div class="main-space-map-text">Начать день с&nbsp;ароматного кофе в&nbsp;уютной кофейне, приобрести необходимые продукты, провести вечерний сеанс в&nbsp;современном спа-центре&nbsp;&mdash; и&nbsp;при этом потратить минимальное время, благодаря коммерческим точкам на&nbsp;первых этажах.</div>
+                                <div class="main-space-map">
+                                    <div class="main-space-map-inner">
+                                        <div class="main-space-map-back"><img src="images/main-space-map.png" alt=""></div>
+                                        <div class="main-space-map-placemark visible" style="left:13.76%; top:19.69%" data-type="shop"><img src="images/main-space-map-icon-shop.svg" alt=""></div>
+                                        <div class="main-space-map-placemark visible" style="left:20.52%; top:19.84%" data-type="education"><img src="images/main-space-map-icon-education.svg" alt=""></div>
+                                        <div class="main-space-map-placemark visible" style="left:32.79%; top:17.09%" data-type="sport"><img src="images/main-space-map-icon-sport.svg" alt=""></div>
+                                        <div class="main-space-map-placemark visible" style="left:8.94%; top:31.75%" data-type="shop"><img src="images/main-space-map-icon-shop.svg" alt=""></div>
+                                        <div class="main-space-map-placemark visible" style="left:24.19%; top:36.33%" data-type="health"><img src="images/main-space-map-icon-health.svg" alt=""></div>
+                                        <div class="main-space-map-placemark visible" style="left:58.94%; top:27.78%" data-type="sport"><img src="images/main-space-map-icon-sport.svg" alt=""></div>
+                                        <div class="main-space-map-placemark visible" style="left:40.13%; top:45.80%" data-type="education"><img src="images/main-space-map-icon-education.svg" alt=""></div>
+                                        <div class="main-space-map-placemark visible" style="left:32.56%; top:62.29%" data-type="shop"><img src="images/main-space-map-icon-shop.svg" alt=""></div>
+                                        <div class="main-space-map-placemark visible" style="left:35.09%; top:59.38%" data-type="shop"><img src="images/main-space-map-icon-shop.svg" alt=""></div>
+                                        <div class="main-space-map-placemark visible" style="left:7.79%; top:73.28%" data-type="health"><img src="images/main-space-map-icon-health.svg" alt=""></div>
+                                        <div class="main-space-map-placemark visible" style="left:26.72%; top:70.53%" data-type="shop"><img src="images/main-space-map-icon-shop.svg" alt=""></div>
+                                        <div class="main-space-map-placemark visible" style="left:18.00%; top:83.81%" data-type="shop"><img src="images/main-space-map-icon-shop.svg" alt=""></div>
+                                        <div class="main-space-map-placemark visible" style="left:24.19%; top:86.10%" data-type="shop"><img src="images/main-space-map-icon-shop.svg" alt=""></div>
+                                    </div>
+                                    <div class="main-space-map-link"><a href="#" class="btn light">Открыть карту<span>&nbsp;инфраструктуры</span></a></div>
+                                </div>
+                            </div>
+                            <div class="main-space-right">
+                                <div class="main-space-right-titles">
+                                    <ul>
+                                        <li class="active" data-type=""><a href="#">Все</a></li>
+                                        <li data-type="shop"><a href="#">Магазины</a></li>
+                                        <li data-type="health"><a href="#">Красота и здоровье</a></li>
+                                        <li data-type="relax"><a href="#">Досуг</a></li>
+                                        <li data-type="education"><a href="#">Образование</a></li>
+                                        <li data-type="sport"><a href="#">Спорт</a></li>
+                                    </ul>
+                                </div>
+                                <div class="main-space-right-ctrl">
+                                    <div class="main-space-right-fraction"><span>1</span>&nbsp;/&nbsp;<strong></strong></div>
+                                    <div class="main-space-right-arrows">
+                                        <a href="#" class="main-space-right-button-prev"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></a>
+                                        <a href="#" class="main-space-right-button-next"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-space-commercial-welcome"><img src="images/main-commercial-welcome.jpg" alt=""></div>
+                        <div class="main-space-commercial-content">
+                            <div class="main-space-commercial-text">
+                                <div class="main-space-commercial-title">В&nbsp;&laquo;Созвездии&raquo; засияют витрины удобных коммерческих помещений с&nbsp;витражными окнами и&nbsp;высокими потолками на&nbsp;первых этажах здания.</div>
+                                <div class="main-space-commercial-anonce">Коммерческие помещения&nbsp;&mdash; это не&nbsp;просто очевидное удобство, но&nbsp;и&nbsp;наличие целого ряда преимуществ. Жители могут экономить время на&nbsp;поездках в&nbsp;магазины или салоны красоты, так как все необходимое находится в&nbsp;доме. Эти площади являются важным элементом инфраструктуры жилого комплекса и&nbsp;делают жизнь владельцев квартир более комфортной и&nbsp;приятной.</div>
+                            </div>
+                            <div class="main-space-commercial-slider">
+                                <div class="swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="files/main-commercial-slider-1.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="files/main-commercial-slider-2.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="files/main-commercial-slider-3.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="files/main-commercial-slider-4.jpg" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main space END -->
+
+                    <!-- main select -->
+                    <div class="main-select">
+                        <div class="main-select-text">
+                            <div class="main-title"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg>пространство для жизни</div>
+                            <h2>Выберите вашу уникальную квартиру</h2>
+                            <div class="main-select-available">
+                                <div class="main-select-available-value">835</div>
+                                <div class="main-select-available-text">квартир<br> в&nbsp;наличии</div>
+                            </div>
+                            <div class="main-select-btn"><a href="windows/consult.html" class="btn light window-link">Получить консультацию</a></div>
+                        </div>
+                        <div class="main-select-img">
+                            <div class="main-select-img-inner"></div>
+                        </div>
+                        <a href="#" class="main-select-link">
+                            <div class="main-select-link-bg"></div>
+                            <div class="main-select-link-title">Выбрать <span>квартиру</span></div>
+                            <div class="main-select-link-arrow"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                        </a>
+                    </div>
+                    <!-- main select END -->
+
+                    <!-- main parking -->
+                    <div class="main-parking">
+                        <div class="main-parking-title">Паркинг</div>
+                        <div class="main-parking-anonce">Паркинг площадью 35000 кв.м располагается под всей территорией комплекса. Попасть в&nbsp;него можно на&nbsp;лифте прямо с&nbsp;жилого этажа</div>
+                        <div class="main-parking-container">
+                            <div class="main-parking-left">
+                                <div class="main-parking-text">Оборудован автоматическими воротами, видеонаблюдением, зарядными устройствами для электромобилей и&nbsp;системами пожарной сигнализации.</div>
+                                <div class="main-parking-photo"><img src="images/main-parking.jpg" alt=""></div>
+                            </div>
+                            <div class="main-parking-right">
+                                <div class="main-parking-scheme"><img src="images/main-parking-scheme.png" alt=""></div>
+                                <div class="main-parking-link"><a href="windows/parking.html" class="window-link">Забронировать место<svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></a></div>
+                                <div class="main-parking-link"><a href="#">План парковки<svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main parking END -->
+
+                    <!-- main buy -->
+                    <div class="main-buy">
+                        <div class="main-title"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg>условия покупки и&nbsp;ипотека</div>
+                        <h2>Купить квартиру&nbsp;&mdash; просто!</h2>
+                        <div class="main-buy-list">
+                            <div class="main-buy-item">
+                                <div class="main-buy-item-title">Выгодный<br> trade-in</div>
+                                <div class="main-buy-item-text">У&nbsp;нас работает бесплатная программа trade&nbsp;in: чтобы вы&nbsp;продали старую квартиру и&nbsp;купили новую без лишней бюрократии.</div>
+                            </div>
+                            <div class="main-buy-item">
+                                <div class="main-buy-item-title">Жилищные<br> сертификаты</div>
+                                <div class="main-buy-item-text">Принимаем все виды жилищных сертификатов.</div>
+                            </div>
+                            <div class="main-buy-item">
+                                <div class="main-buy-item-title">Помогаем<br> с&nbsp;ипотекой</div>
+                                <div class="main-buy-item-text">Консультируем по&nbsp;вопросам ипотеки, подбираем вариант для вас и&nbsp;подаем заявку на&nbsp;нужную вам программу.</div>
+                            </div>
+                            <div class="main-buy-item">
+                                <div class="main-buy-item-title">Беспроцентная<br> рассрочка</div>
+                                <div class="main-buy-item-text">Готовы предложить беспроцентную рассрочку до&nbsp;завершения строительства дома. Условия рассрочки</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main buy END -->
+
+                    <!-- main production -->
+                    <div class="main-production">
+                        <div class="main-production-header">
+                            <div class="main-production-header-img"><img src="images/main-production-welcome.jpg" alt=""></div>
+                            <div class="main-production-header-content">
+                                <div class="main-title"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg>собственное производство</div>
+                                <h2>Строим не&nbsp;дворы, а&nbsp;уютные миры</h2>
+                            </div>
+                        </div>
+                        <div class="main-production-info">
+                            <div class="main-production-anonce">Холдинг &laquo;Термодом&raquo; сам производит строительные материалы для своих проектов. Строит своими силами. Много и&nbsp;непрерывно. Этот факт позволяет предлагать выгодную цену на&nbsp;квартиры достойного качества.</div>
+                            <div class="main-production-logo"><img src="images/main-production-logo.png" alt=""></div>
+                        </div>
+                        <div class="main-production-text">Наша цель&nbsp;&mdash; создавать условия, для того чтобы каждый житель смог реализовать свои цели и&nbsp;исполнить мечты. В&nbsp;проектах мы&nbsp;особо ценим атмосферу семейности. Создаем условия и&nbsp;места, где можно комфортно отдыхать и&nbsp;гулять всей семьей вместе с&nbsp;детьми. Тысячи жителей уже наслаждаются жизнью в&nbsp;домах и&nbsp;общими впечатлениями от&nbsp;окружения.</div>
+                        <div class="main-production-scheme">
+                            <div class="main-production-scheme-content">
+                                <div class="main-production-scheme-img"><img src="images/main-production-scheme.jpg" alt=""></div>
+                                <div class="main-production-scheme-item" style="left:52.18%; top:15.67%">
+                                    <div class="main-production-scheme-item-window">
+                                        <div class="main-production-scheme-item-window-title">Наружные стены</div>
+                                        <div class="main-production-scheme-item-window-text">
+                                            <p>Керамический блок&nbsp;&mdash; 200&nbsp;мм</p>
+                                            <p>Минераловатные плиты&nbsp;&mdash; 100-150&nbsp;мм</p>
+                                            <p>Вентфасад с&nbsp;воздушным зазором</p>
+                                            <p>Керамогранит</p>
+                                            <p>Композитный материал</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-production-scheme-item-icon"><svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg></div>
+                                </div>
+
+                                <div class="main-production-scheme-item" style="left:21.44%; top:26.11%">
+                                    <div class="main-production-scheme-item-window">
+                                        <div class="main-production-scheme-item-window-title">Наружные стены</div>
+                                        <div class="main-production-scheme-item-window-text">
+                                            <p>Керамический блок&nbsp;&mdash; 200&nbsp;мм</p>
+                                            <p>Минераловатные плиты&nbsp;&mdash; 100-150&nbsp;мм</p>
+                                            <p>Вентфасад с&nbsp;воздушным зазором</p>
+                                            <p>Керамогранит</p>
+                                            <p>Композитный материал</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-production-scheme-item-icon"><svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg></div>
+                                </div>
+
+                                <div class="main-production-scheme-item" style="left:13.68%; top:41.04%">
+                                    <div class="main-production-scheme-item-window">
+                                        <div class="main-production-scheme-item-window-title">Наружные стены</div>
+                                        <div class="main-production-scheme-item-window-text">
+                                            <p>Керамический блок&nbsp;&mdash; 200&nbsp;мм</p>
+                                            <p>Минераловатные плиты&nbsp;&mdash; 100-150&nbsp;мм</p>
+                                            <p>Вентфасад с&nbsp;воздушным зазором</p>
+                                            <p>Керамогранит</p>
+                                            <p>Композитный материал</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-production-scheme-item-icon"><svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg></div>
+                                </div>
+
+                                <div class="main-production-scheme-item" style="left:24.81%; top:69.25%">
+                                    <div class="main-production-scheme-item-window">
+                                        <div class="main-production-scheme-item-window-title">Наружные стены</div>
+                                        <div class="main-production-scheme-item-window-text">
+                                            <p>Керамический блок&nbsp;&mdash; 200&nbsp;мм</p>
+                                            <p>Минераловатные плиты&nbsp;&mdash; 100-150&nbsp;мм</p>
+                                            <p>Вентфасад с&nbsp;воздушным зазором</p>
+                                            <p>Керамогранит</p>
+                                            <p>Композитный материал</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-production-scheme-item-icon"><svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg></div>
+                                </div>
+
+                                <div class="main-production-scheme-item" style="left:15.87%; top:79.25%">
+                                    <div class="main-production-scheme-item-window">
+                                        <div class="main-production-scheme-item-window-title">Наружные стены</div>
+                                        <div class="main-production-scheme-item-window-text">
+                                            <p>Керамический блок&nbsp;&mdash; 200&nbsp;мм</p>
+                                            <p>Минераловатные плиты&nbsp;&mdash; 100-150&nbsp;мм</p>
+                                            <p>Вентфасад с&nbsp;воздушным зазором</p>
+                                            <p>Керамогранит</p>
+                                            <p>Композитный материал</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-production-scheme-item-icon"><svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg></div>
+                                </div>
+
+                                <div class="main-production-scheme-item" style="left:43.08%; top:76.86%">
+                                    <div class="main-production-scheme-item-window">
+                                        <div class="main-production-scheme-item-window-title">Наружные стены</div>
+                                        <div class="main-production-scheme-item-window-text">
+                                            <p>Керамический блок&nbsp;&mdash; 200&nbsp;мм</p>
+                                            <p>Минераловатные плиты&nbsp;&mdash; 100-150&nbsp;мм</p>
+                                            <p>Вентфасад с&nbsp;воздушным зазором</p>
+                                            <p>Керамогранит</p>
+                                            <p>Композитный материал</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-production-scheme-item-icon"><svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg></div>
+                                </div>
+
+                                <div class="main-production-scheme-item" style="left:62.13%; top:37.46%">
+                                    <div class="main-production-scheme-item-window">
+                                        <div class="main-production-scheme-item-window-title">Наружные стены</div>
+                                        <div class="main-production-scheme-item-window-text">
+                                            <p>Керамический блок&nbsp;&mdash; 200&nbsp;мм</p>
+                                            <p>Минераловатные плиты&nbsp;&mdash; 100-150&nbsp;мм</p>
+                                            <p>Вентфасад с&nbsp;воздушным зазором</p>
+                                            <p>Керамогранит</p>
+                                            <p>Композитный материал</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-production-scheme-item-icon"><svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg></div>
+                                </div>
+
+                                <div class="main-production-scheme-item" style="left:84.48%; top:62.08%">
+                                    <div class="main-production-scheme-item-window">
+                                        <div class="main-production-scheme-item-window-title">Наружные стены</div>
+                                        <div class="main-production-scheme-item-window-text">
+                                            <p>Керамический блок&nbsp;&mdash; 200&nbsp;мм</p>
+                                            <p>Минераловатные плиты&nbsp;&mdash; 100-150&nbsp;мм</p>
+                                            <p>Вентфасад с&nbsp;воздушным зазором</p>
+                                            <p>Керамогранит</p>
+                                            <p>Композитный материал</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-production-scheme-item-icon"><svg><use xlink:href="images/sprite.svg#icon-plus"></use></svg></div>
+                                </div>
+                            </div>
+                            <div class="main-production-scheme-logos">
+                                <div class="main-production-scheme-logo">
+                                    <div class="main-production-scheme-logo-img"><img src="images/main-production-icon-1.svg" alt=""></div>
+                                    <div class="main-production-scheme-logo-title">Строим надежно</div>
+                                </div>
+                                <div class="main-production-scheme-logo">
+                                    <div class="main-production-scheme-logo-img"><img src="images/main-production-icon-2.svg" alt=""></div>
+                                    <div class="main-production-scheme-logo-title">Контроль качества на&nbsp;каждом этапе</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main production END -->
+
+                    <!-- main progress -->
+                    <div class="main-progress">
+                        <h2>Ход строительства</h2>
+                        <div class="main-progress-list">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#" class="main-progress-item">
+                                            <div class="main-progress-item-photo" style="background-image:url(files/main-progress-1.jpg)"></div>
+                                            <div class="main-progress-item-content">
+                                                <div class="main-progress-item-title">Дом №3 / отчет №6</div>
+                                                <div class="main-progress-item-date">8 июня 2024 г.</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="main-progress-item">
+                                            <div class="main-progress-item-photo" style="background-image:url(files/main-progress-2.jpg)"></div>
+                                            <div class="main-progress-item-content">
+                                                <div class="main-progress-item-title">Дом №2 / отчет №6</div>
+                                                <div class="main-progress-item-date">6 июня 2024 г.</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="main-progress-item">
+                                            <div class="main-progress-item-photo" style="background-image:url(files/main-progress-3.jpg)"></div>
+                                            <div class="main-progress-item-content">
+                                                <div class="main-progress-item-title">Дом №1 / отчет №6</div>
+                                                <div class="main-progress-item-date">10 мая 2024 г.</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="main-progress-item">
+                                            <div class="main-progress-item-photo" style="background-image:url(files/main-progress-4.jpg)"></div>
+                                            <div class="main-progress-item-content">
+                                                <div class="main-progress-item-title">Дом №3 / отчет №5</div>
+                                                <div class="main-progress-item-date">10 мая 2024 г.</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="main-progress-item">
+                                            <div class="main-progress-item-photo" style="background-image:url(files/main-progress-1.jpg)"></div>
+                                            <div class="main-progress-item-content">
+                                                <div class="main-progress-item-title">Дом №3 / отчет №6</div>
+                                                <div class="main-progress-item-date">8 июня 2024 г.</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="main-progress-item">
+                                            <div class="main-progress-item-photo" style="background-image:url(files/main-progress-2.jpg)"></div>
+                                            <div class="main-progress-item-content">
+                                                <div class="main-progress-item-title">Дом №2 / отчет №6</div>
+                                                <div class="main-progress-item-date">6 июня 2024 г.</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="main-progress-item">
+                                            <div class="main-progress-item-photo" style="background-image:url(files/main-progress-3.jpg)"></div>
+                                            <div class="main-progress-item-content">
+                                                <div class="main-progress-item-title">Дом №1 / отчет №6</div>
+                                                <div class="main-progress-item-date">10 мая 2024 г.</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="main-progress-item">
+                                            <div class="main-progress-item-photo" style="background-image:url(files/main-progress-4.jpg)"></div>
+                                            <div class="main-progress-item-content">
+                                                <div class="main-progress-item-title">Дом №3 / отчет №5</div>
+                                                <div class="main-progress-item-date">10 мая 2024 г.</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                            <div class="swiper-button-next"><svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></div>
+                        </div>
+                    </div>
+                    <!-- main progress END -->
+
+                    <!-- main news -->
+                    <div class="main-news">
+                        <div class="main-news-header">
+                            <h2>Новости</h2>
+                            <div class="main-news-all"><a href="#">Все новости<svg><use xlink:href="images/sprite.svg#slider-arrow"></use></svg></a></div>
+                        </div>
+                        <div class="main-news-list">
+                            <div class="main-news-item">
+                                <a href="#">
+                                    <div class="main-news-item-title">Актуальные новости строительства дома “Атлас”</div>
+                                    <div class="main-news-item-date">08 июня 2024 г.</div>
+                                </a>
+                            </div>
+                            <div class="main-news-item">
+                                <a href="#">
+                                    <div class="main-news-item-title">Актуальные новости строительства дома “Астерион”</div>
+                                    <div class="main-news-item-date">08 июня 2024 г.</div>
+                                </a>
+                            </div>
+                            <div class="main-news-item">
+                                <a href="#">
+                                    <div class="main-news-item-title">Интервью с дизайнером интерьеров Александрой Ивановой</div>
+                                    <div class="main-news-item-date">08 июня 2024 г.</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main news END -->
+
+                </div>
+                <!-- container END -->
+
+            </div>
+            <!-- wrapper inner END -->
+
+            <footer>
+                <div class="container">
+
+                    <div class="footer-container">
+                        <div class="footer-contacts">
+                            <div class="footer-contacts-title"><svg><use xlink:href="images/sprite.svg#icon-star"></use></svg>контакты</div>
+                            <div class="footer-contacts-phone"><a href="tel:+78412505769">+7 (8412) 50-57-69</a></div>
+                            <div class="footer-contacts-text"><svg><use xlink:href="images/sprite.svg#footer-title"></use></svg></div>
+                        </div>
+                        <div class="footer-offices">
+                            <div class="footer-offices-content">
+                                <div class="footer-offices-headers">
+                                    <div class="footer-offices-header">Офисы продаж</div>
+                                    <div class="footer-offices-header">Пн-Пт</div>
+                                    <div class="footer-offices-header">Сб-Вс</div>
+                                </div>
+                                <div class="footer-offices-item">
+                                    <div class="footer-offices-item-address">Город Спутник, ул. Радужная, 1<a href="https://yandex.ru/maps/?text=Город Спутник, ул. Радужная, 1" target="_blank"><svg><use xlink:href="images/sprite.svg#map-link"></use></svg></a></div>
+                                    <div class="footer-offices-item-schedule"><span>Пн-Пт&nbsp;</span>8:00&nbsp;&mdash; 19:00</div>
+                                    <div class="footer-offices-item-schedule"><span>Сб-Вс&nbsp;</span>9:00&nbsp;&mdash; 14:00</div>
+                                </div>
+                                <div class="footer-offices-item">
+                                    <div class="footer-offices-item-address">г. Пенза, ул. Московская, 107<a href="https://yandex.ru/maps/?text=г. Пенза, ул. Московская, 107" target="_blank"><svg><use xlink:href="images/sprite.svg#map-link"></use></svg></a></div>
+                                    <div class="footer-offices-item-schedule"><span>Пн-Пт&nbsp;</span>8:00&nbsp;&mdash; 18:00</div>
+                                    <div class="footer-offices-item-schedule"><span>Сб-Вс&nbsp;</span>Выходной</div>
+                                </div>
+                                <div class="footer-offices-item">
+                                    <div class="footer-offices-item-address">г. Пенза, ул. Шмидта (около ул.&nbsp;Шмидта,&nbsp;4)<a href="https://yandex.ru/maps/?text=г. Пенза, ул. Шмидта, 4" target="_blank"><svg><use xlink:href="images/sprite.svg#map-link"></use></svg></a></div>
+                                    <div class="footer-offices-item-schedule"><span>Пн-Пт&nbsp;</span>8:00&nbsp;&mdash; 18:00</div>
+                                    <div class="footer-offices-item-schedule"><span>Сб-Вс&nbsp;</span>Выходной</div>
+                                </div>
+                                <div class="footer-offices-item">
+                                    <div class="footer-offices-item-address">г. Пенза, пр-т Строителей, 1в/6<a href="https://yandex.ru/maps/?text=г. Пенза, пр-т Строителей, 1в/6" target="_blank"><svg><use xlink:href="images/sprite.svg#map-link"></use></svg></a></div>
+                                    <div class="footer-offices-item-schedule"><span>Пн-Пт&nbsp;</span>8:00&nbsp;&mdash; 18:00</div>
+                                    <div class="footer-offices-item-schedule"><span>Сб-Вс&nbsp;</span>Выходной</div>
+                                </div>
+                                <div class="footer-offices-item">
+                                    <div class="footer-offices-item-address">г. Пенза, Победы, 124Б/7<a href="https://yandex.ru/maps/?text=г. Пенза, Победы, 124Б/7" target="_blank"><svg><use xlink:href="images/sprite.svg#map-link"></use></svg></a></div>
+                                    <div class="footer-offices-item-schedule"><span>Пн-Пт&nbsp;</span>8:00&nbsp;&mdash; 18:00</div>
+                                    <div class="footer-offices-item-schedule"><span>Сб-Вс&nbsp;</span>Выходной</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <div class="footer-bottom-copyrights">2024&nbsp;&copy; ООО СЗ&nbsp;&laquo;Созвездие&raquo;</div>
+                        <div class="footer-bottom-projects">Проектные декларации на&nbsp;сайте <a href="https://наш.дом.рф" target="_blank">наш.дом.рф</a></div>
+                        <div class="footer-bottom-developer">Сайт сделан в <a href="https://7pap.ru" target="_blank">СЕМЬ ПАП</a></div>
+                    </div>
+
+                </div>
+            </footer>
+
+        </div>
+        <!-- wrapper END -->
+
+        <script>
+            var pathTemplate = './';
+        </script>
+
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/swiper/swiper-bundle.min.js"></script>
+        <script src="js/jquery.mask.min.js"></script>
+        <script src="js/validation/jquery.validate.min.js"></script>
+        <script src="js/validation/messages_ru.js"></script>
+        <script src="js/nouislider/nouislider.min.js"></script>
+        <script src="js/nouislider/wNumb.js"></script>
+        <script src="js/fancybox/jquery.fancybox.min.js"></script>
+        <script src="js/tools.js"></script>
+
+    </body>
+</html>
