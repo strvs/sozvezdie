@@ -401,6 +401,17 @@ $(document).ready(function() {
         $(this).parent().toggleClass('open');
     });
 
+    $('.list').each(function() {
+        if ($('.list .swiper-slide').length > 4) {
+            $('.list-more').addClass('visible');
+        }
+    });
+
+    $('.list-more a').click(function(e) {
+        $('.list').addClass('open');
+        e.preventDefault();
+    });
+
 });
 
 function initForm(curForm) {
@@ -514,6 +525,7 @@ function windowClose() {
 }
 
 var mainNeighborsWhatSwiper;
+var listSwiper;
 
 $(window).on('load resize', function() {
     var windowWidth = $(window).width();
@@ -528,7 +540,7 @@ $(window).on('load resize', function() {
         $('.main-architecture-top').css({'min-height': $('.main-architecture-top-container').height() + 'px'});
     });
 
-    if (windowWidth > 1199) {
+    if (windowWidth > 900) {
         $('.main-neighbors-what-list .swiper').each(function() {
             var curSlider = $(this);
             if (curSlider.hasClass('swiper-initialized') && mainNeighborsWhatSwiper) {
@@ -542,6 +554,33 @@ $(window).on('load resize', function() {
                 mainNeighborsWhatSwiper = new Swiper(curSlider[0], {
                     slidesPerView: 1,
                     loop: false
+                });
+            }
+        });
+    }
+
+    if (windowWidth < 901) {
+        $('.list').each(function() {
+            var curSlider = $(this);
+            if (curSlider.find('.swiper').hasClass('swiper-initialized') && listSwiper) {
+                listSwiper.destroy();
+            }
+        });
+    } else {
+        $('.list').each(function() {
+            var curSlider = $(this);
+            if (!curSlider.find('.swiper').hasClass('swiper-initialized')) {
+                listSwiper = new Swiper(curSlider.find('.swiper')[0], {
+                    slidesPerView: 4,
+                    loop: false,
+                    navigation: {
+                        nextEl: curSlider.find('.swiper-button-next')[0],
+                        prevEl: curSlider.find('.swiper-button-prev')[0]
+                    },
+                    pagination: {
+                        el: curSlider.find('.swiper-pagination')[0],
+                        type: 'progressbar'
+                    },
                 });
             }
         });
