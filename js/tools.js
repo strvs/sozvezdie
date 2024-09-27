@@ -411,6 +411,13 @@ $(document).ready(function() {
         $('.list').addClass('open');
         e.preventDefault();
     });
+    
+    $('.detail-build-scheme').each(function() {
+        if (typeof($('.detail-build-scheme').attr('data-active')) !== 'undefined') {
+            var curActive = $('.detail-build-scheme').attr('data-active');
+            $('.detail-building-item[data-id="' + curActive + '"]').addClass('active');
+        }
+    });
 
 });
 

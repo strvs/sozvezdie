@@ -1463,12 +1463,12 @@ header.fixed .logo img {width:5.83vw}
 
 .detail-adds {margin:2.91vw -0.62vw -1.66vw -0.62vw; display:flex; flex-wrap:wrap; align-items:center}
 .detail-add {min-width:50%; max-width:50%; padding:0 0.62vw 1.66vw 0.6vw; display:flex; align-items:center}
-.detail-add img {min-width:2.08vw; max-width:2.08vw; margin:0 0.83vw 0 0}
+.detail-add img {min-width:3.12vw; max-width:3.12vw; margin:0 0.83vw 0 0}
 .detail-add span {font-weight:normal; font-size:0.83vw; line-height:1.6em; color:#141C3A}
 
 @media (max-width:900px) {
     .detail-adds {margin:0 -12px -24px -12px}
-    .detail-add {padding:0 12px 24px 12px}
+    .detail-add {padding:0 12px 24px 12px; min-width:100%; max-width:100%}
     .detail-add img {min-width:40px; max-width:40px; margin:0 16px 0 0}
     .detail-add span {font-size:16px; line-height:1.4em}
 }
